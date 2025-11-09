@@ -56,8 +56,8 @@ const EntryItem: React.FC<{ entry: Entry, onDelete: (id: string) => void }> = ({
 
 const HistoryScreen: React.FC<HistoryScreenProps> = ({ entries, deleteEntry }) => {
     // FIX: Correctly type the initial value for the reduce function's accumulator.
-    // This resolves the "Untyped function calls may not accept type arguments" error and ensures
-    // `groupedEntries` has the correct type, which in turn fixes the missing `map` property error.
+    // This resolves an issue where TypeScript infers the accumulator as `{}`,
+    // leading to a downstream error where `.map` is called on a value of type `unknown`.
     const groupedEntries = entries.reduce((acc, entry) => {
         const date = new Date(entry.date).toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
         if (!acc[date]) {
