@@ -1,6 +1,6 @@
 import React from 'react';
-import StatCard from '../components/StatCard';
-import { Entry, Goal, GoalPeriod } from '../types';
+import StatCard from '../components/StatCard.tsx';
+import { Entry, Goal, GoalPeriod } from '../types.ts';
 
 interface DashboardScreenProps {
     entries: Entry[];

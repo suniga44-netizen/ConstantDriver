@@ -1,16 +1,16 @@
 
 import React, { useState } from 'react';
-import BottomNav from './components/BottomNav';
-import DashboardScreen from './screens/DashboardScreen';
-import HistoryScreen from './screens/HistoryScreen';
-import ChartsScreen from './screens/ChartsScreen';
-import GoalsScreen from './screens/GoalsScreen';
-import InsightsScreen from './screens/InsightsScreen';
-import SettingsScreen from './screens/SettingsScreen';
-import AddEntryModal from './components/AddEntryModal';
-import { PlusIcon } from './components/Icons';
-import { useLocalStorage } from './hooks/useLocalStorage';
-import { Entry, Goal } from './types';
+import BottomNav from './components/BottomNav.tsx';
+import DashboardScreen from './screens/DashboardScreen.tsx';
+import HistoryScreen from './screens/HistoryScreen.tsx';
+import ChartsScreen from './screens/ChartsScreen.tsx';
+import GoalsScreen from './screens/GoalsScreen.tsx';
+import InsightsScreen from './screens/InsightsScreen.tsx';
+import SettingsScreen from './screens/SettingsScreen.tsx';
+import AddEntryModal from './components/AddEntryModal.tsx';
+import { PlusIcon } from './components/Icons.tsx';
+import { useLocalStorage } from './hooks/useLocalStorage.tsx';
+import { Entry, Goal } from './types.ts';
 
 export type Screen = 'dashboard' | 'history' | 'charts' | 'goals' | 'insights' | 'settings';
 

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Entry, ExpenseCategory } from '../types';
+import { Entry, ExpenseCategory } from '../types.ts';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 
 interface ChartsScreenProps {

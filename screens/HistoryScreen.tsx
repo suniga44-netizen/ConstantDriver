@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Entry, Earning, Expense, WorkShift } from '../types';
-import { TrashIcon } from '../components/Icons';
+import { Entry, Earning, Expense, WorkShift } from '../types.ts';
+import { TrashIcon } from '../components/Icons.tsx';
 
 interface HistoryScreenProps {
     entries: Entry[];

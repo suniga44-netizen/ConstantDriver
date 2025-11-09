@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Screen } from '../App';
-import { HomeIcon, HistoryIcon, ChartIcon, TargetIcon, SparklesIcon, SettingsIcon } from './Icons';
+import { Screen } from '../App.tsx';
+import { HomeIcon, HistoryIcon, ChartIcon, TargetIcon, SparklesIcon, SettingsIcon } from './Icons.tsx';
 
 interface BottomNavProps {
     activeScreen: Screen;

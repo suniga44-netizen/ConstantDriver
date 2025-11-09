@@ -1,6 +1,6 @@
 
 import React, { useRef } from 'react';
-import { Entry, Goal } from '../types';
+import { Entry, Goal } from '../types.ts';
 
 interface SettingsScreenProps {
     entries: Entry[];

@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { Entry } from '../types';
-import { getInsights } from '../services/geminiService';
-import { SparklesIcon } from '../components/Icons';
+import { Entry } from '../types.ts';
+import { getInsights } from '../services/geminiService.ts';
+import { SparklesIcon } from '../components/Icons.tsx';
 
 interface InsightsScreenProps {
     entries: Entry[];

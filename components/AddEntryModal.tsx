@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { EarningCategory, ExpenseCategory, Entry } from '../types';
-import { XIcon } from './Icons';
+import { EarningCategory, ExpenseCategory, Entry } from '../types.ts';
+import { XIcon } from './Icons.tsx';
 
 interface AddEntryModalProps {
     onClose: () => void;

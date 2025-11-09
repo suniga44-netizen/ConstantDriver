@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { Entry, Goal, GoalType, GoalPeriod } from '../types';
-import { TrashIcon } from '../components/Icons';
+import { Entry, Goal, GoalType, GoalPeriod } from '../types.ts';
+import { TrashIcon } from '../components/Icons.tsx';
 
 interface GoalsScreenProps {
     entries: Entry[];

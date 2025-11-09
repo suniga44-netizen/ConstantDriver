@@ -1,6 +1,6 @@
 
 import { GoogleGenAI } from "@google/genai";
-import { Entry } from "../types";
+import { Entry } from "../types.ts";
 
 export const getInsights = async (entries: Entry[]): Promise<string> => {
   if (entries.length < 5) {
