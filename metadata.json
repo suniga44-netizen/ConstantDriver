@@ -1,0 +1,5 @@
+{
+  "name": "Driver's Dash",
+  "description": "A web app for ride-sharing drivers to track earnings, expenses, and work shifts. It provides a dashboard, history, charts, goals, and AI-powered insights to optimize performance.",
+  "requestFramePermissions": []
+}
